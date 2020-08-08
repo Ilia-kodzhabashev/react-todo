@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.my-todo-list {
+
+  font-family: verdana sans-serif;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgb(241, 222, 222);
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px 2px rgba(209, 153, 153, 0.75);
+  padding: 5px 5px;
+}
+.app {
+  background: #eacff7;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #02e668;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 500px;
+}
+
+.todo {
+  background: rgb(241, 222, 222);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px;
+  border-radius: 4px;
+  padding: 5px;
+  height: 30px;
+}
+.danger {
+  background-color: red;
+}
